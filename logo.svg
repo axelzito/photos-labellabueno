@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" aria-hidden="true" role="img">
+  <defs>
+    <linearGradient id="pinkGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#f43f5e" />
+    </linearGradient>
+    <linearGradient id="roseGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e" />
+      <stop offset="100%" stop-color="#fb7185" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Estrela central com brilho -->
+  <g transform="translate(100, 100)">
+    <!-- Estrela principal -->
+    <path d="M 0 -60 L 15 -20 L 55 -20 L 20 5 L 35 45 L 0 25 L -35 45 L -20 5 L -55 -20 L -15 -20 Z" 
+          fill="url(#pinkGradient)" 
+          stroke="url(#roseGradient)" 
+          stroke-width="2"/>
+    
+    <!-- Brilhos decorativos -->
+    <circle cx="0" cy="-75" r="4" fill="url(#roseGradient)" opacity="0.8"/>
+    <circle cx="65" cy="-10" r="3" fill="url(#pinkGradient)" opacity="0.7"/>
+    <circle cx="-65" cy="-10" r="3" fill="url(#pinkGradient)" opacity="0.7"/>
+    <circle cx="40" cy="50" r="3.5" fill="url(#roseGradient)" opacity="0.8"/>
+    <circle cx="-40" cy="50" r="3.5" fill="url(#roseGradient)" opacity="0.8"/>
+    
+    <!-- Pequenos pontos de brilho -->
+    <circle cx="25" cy="-45" r="2" fill="#fda4af" opacity="0.6"/>
+    <circle cx="-25" cy="-45" r="2" fill="#fda4af" opacity="0.6"/>
+    <circle cx="50" cy="20" r="2" fill="#fda4af" opacity="0.6"/>
+    <circle cx="-50" cy="20" r="2" fill="#fda4af" opacity="0.6"/>
+  </g>
+</svg>
